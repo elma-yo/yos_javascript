@@ -1,15 +1,13 @@
 'use strict'
 
 {
-    document.querySelector('button').addEventListener('dblclick', () => {
-        console.log('Double Clicked!');
+    const text = document.querySelector('textarea');
+
+    text.addEventListener('focus', () => {
+        console.log('focus');
     });
 
-    // document.addEventListener('mousemove', e => {
-    //     console.log(e.clientX, e.clientY);
-    // });
-
-    document.addEventListener('keydown', e => {
-        console.log(e.key);
+    text.addEventListener('blur', () => {
+        console.log('blur');
     });
 }
