@@ -2,9 +2,9 @@
 
 {
     document.querySelector('button').addEventListener('click', () => {
-        const targetNode = document.getElementById('target');
+        const item2 = document.createElement('li');
+        item2.textContent = 'item2';
 
-        // targetNode.textContent = 'Dotinstall';
-        targetNode.textContent = targetNode.dataset.translation;
+        const ul = document.querySelector('ul');
     });
 }
