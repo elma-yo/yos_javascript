@@ -6,5 +6,6 @@
         item2.textContent = 'item2';
 
         const ul = document.querySelector('ul');
+        ul.appendChild(item2);
     });
 }
