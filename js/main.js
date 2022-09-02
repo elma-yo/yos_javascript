@@ -6,5 +6,7 @@
 
         targetNode.textContent = 'Change!';
         targetNode.title = 'This is title!';
+        targetNode.style.color = 'white';
+        targetNode.style.backgroundColor = 'skyblue';
     });
 }
