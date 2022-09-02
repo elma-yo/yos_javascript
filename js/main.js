@@ -12,7 +12,8 @@
     // });
 
     text.addEventListener('input', () => {
-        console.log('input');
+        // console.log('input');
+        console.log(text.value.length);
     });
 
     text.addEventListener('change', () => {
